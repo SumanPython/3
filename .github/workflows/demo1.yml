@@ -13,6 +13,7 @@ on:
       -  "dev-*"
     paths:
       -  ".github/workflows/demo1.yml"
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
