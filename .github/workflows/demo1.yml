@@ -6,9 +6,11 @@ on:
       -  closed
     branches:
       -  main
+      -  "dev-*"
   push:
     branches:
       -  main
+      -  "dev-*"
     paths:
       -  ".github/workflows/demo1.yml"
 jobs:
